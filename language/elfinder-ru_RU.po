@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elfinder 0.0\n"
+"Report-Msgid-Bugs-To: jibiel@live.com\n"
+"POT-Creation-Date: 2010-09-27 20:03+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: jibiel <jibiel@live.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: mediator.php:49
+msgid "elFinder Settings"
+msgstr "Настройки elFinder"
+
+#: mediator.php:291
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: mediator.php:314
+msgid "Path to root directory"
+msgstr "Путь к корневой директории"
+
+#: mediator.php:319
+msgid "Root directory URL"
+msgstr "URL корневой директории"
+
+#: mediator.php:324
+msgid "Alias"
+msgstr "Алиас"
+
+#: mediator.php:326
+msgid "Display this instead of root directory name."
+msgstr "Отображается вместо названия корневой директории."
+
+#: mediator.php:330
+msgid "List of not allowed commands"
+msgstr "Список отключенных команд"
+
+#: mediator.php:332
+msgid "Divided by commas &mdash; here and below."
+msgstr "Разделяя элеметы списка запятыми &mdash; здесь и далее."
+
+#: mediator.php:336
+msgid "Display dot files"
+msgstr "Показывать .файлы"
+
+#: mediator.php:341
+msgid "Count total directories sizes"
+msgstr "Подсчитывать размер директорий"
+
+#: mediator.php:346
+msgid "New files mode"
+msgstr "Права доступа к новым файлам"
+
+#: mediator.php:351
+msgid "New folders mode"
+msgstr "Права доступа к новым папкам"
+
+#: mediator.php:356
+msgid "MIME-type detection method"
+msgstr "Способ определения mime-типов файлов"
+
+#: mediator.php:358
+msgid "finfo"
+msgstr "finfo"
+
+#: mediator.php:360
+msgid "mime_content_type"
+msgstr "mime_content_type"
+
+#: mediator.php:362
+msgid "linux (file -ib)"
+msgstr "linux (file -ib)"
+
+#: mediator.php:364
+msgid "bsd (file -Ib)"
+msgstr "bsd (file -Ib)"
+
+#: mediator.php:366
+msgid "internal (based on file extensions)"
+msgstr "internal (по расширению)"
+
+#: mediator.php:368
+msgid "auto detect"
+msgstr "автоопределение"
+
+#: mediator.php:372
+msgid "List of mime-types allowed to upload"
+msgstr "Список типов файлов, разрешенных для загрузки"
+
+#: mediator.php:374
+msgid "Can be set exactly <b>image/jpeg</b> or to group <b>application</b>."
+msgstr "Возможно задание точного mimetype ( <b>image/jpeg</b>) или группы типов ( <b>application</b>)."
+
+#: mediator.php:383
+msgid "Order of upload rules execution"
+msgstr "Порядок применения правил загрузки файлов"
+
+#: mediator.php:385
+msgid "Deny,allow &mdash; what is not disallowed or allowed (OR)."
+msgstr "Deny,allow &mdash; то, что не запрещено или разрешено (OR)."
+
+#: mediator.php:387
+msgid "Allow,deny &mdash; only what is allowed, except what is disallowed (AND)."
+msgstr "Allow,deny &mdash; только то, что разрешено, кроме того, что запрещено (AND)."
+
+#: mediator.php:391
+msgid "Library for thumbnail creation"
+msgstr "Библиотека для создания иконок изображений"
+
+#: mediator.php:393
+msgid "imagick"
+msgstr "imagick"
+
+#: mediator.php:395
+msgid "mogrify"
+msgstr "mogrify"
+
+#: mediator.php:397
+msgid "gd"
+msgstr "gd"
+
+#: mediator.php:399
+msgid "try detect automatically"
+msgstr "определить автоматически"
+
+#: mediator.php:403
+msgid "Directory name for image thumbnails"
+msgstr "Название папки с иконками изображений"
+
+#: mediator.php:405
+msgid "Leave the field blank to avoid thumbnails generation."
+msgstr "Оставьте поле пустым, чтобы не использовать предпросмотр изображений."
+
+#: mediator.php:409
+msgid "How often to clean thumbnails"
+msgstr "Частота очистки директории с превьюшками"
+
+#: mediator.php:411
+msgid "Possible values: from 0 to 200. 0 &mdash; never, 200 &mdash; on each client init request."
+msgstr "Возможные значения &mdash; от 0 до 200. 0 &mdash; не очищать, 200 &mdash; при каждом запросе инициализации файлового менеджера"
+
+#: mediator.php:415
+msgid "How many thumbnails to create per background request"
+msgstr "Сколько миниатюрок создавать за один фоновый запрос"
+
+#: mediator.php:420
+msgid "Thumbnail size"
+msgstr "Размер миниатюрок"
+
+#: mediator.php:421
+msgid "pixels"
+msgstr "пикселей"
+
+#: mediator.php:425
+msgid "Show real URLs to files in client"
+msgstr "Показывать URL файлов клиенту"
+
+#: mediator.php:430
+msgid "File modification date format"
+msgstr "Формат даты последнего изменения файла"
+
+#: mediator.php:491
+msgid "Object logger"
+msgstr "Объект-логгер"
+
+#: mediator.php:496
+msgid "Default access for files/directories"
+msgstr "Права доступа к файлам/директориям по умолчанию"
+
+#: mediator.php:499
+msgid "read"
+msgstr "read"
+
+#: mediator.php:503
+msgid "write"
+msgstr "write"
+
+#: mediator.php:507
+msgid "remove"
+msgstr "remove"
+
+#: mediator.php:511
+msgid "Individual folders/files permisions"
+msgstr "Права доступа к индивидуальным файлам/директориям"
+
+#: mediator.php:529
+msgid "   Add   "
+msgstr "Добавить"
+
+#: mediator.php:530
+msgid "Remove"
+msgstr "Удалить"
+
+#: mediator.php:546
+msgid "disallow delete jpeg/png/gif"
+msgstr "запретить удаление jpeg/png/gif"
+
+#: mediator.php:547
+msgid "disallow write to text files (also you won't be able to rename them)"
+msgstr "запретить запись в текстовые файлы (так же их нельзя будет их переименовать)"
+
+#: mediator.php:548
+msgid "«default access..» is set to «read» only &rarr; read &mdash; all, write and delete only in personal directory"
+msgstr "«права по умолчанию» выставлены в значение «только чтение» &rarr; чтение &mdash; всё, запись и удаление разрешены только в директории пользователя"
+
+#: mediator.php:552
+msgid "Send debug information to client"
+msgstr "Отсылать отладочную информацию клиенту"
+
+#: mediator.php:557
+msgid "List of file archives allowed to create"
+msgstr "Список типов архивов, разрешенных для создания"
+
+#: mediator.php:559
+msgid "If not set will allow all detected archvies."
+msgstr "Если не задан &mdash; будут разрешены все доступные типы"
+
+#: mediator.php:563
+msgid "Info about archivers to use"
+msgstr "Информация об архиваторах"
+
+#: mediator.php:571
+msgid "application mime-type"
+msgstr "application mime-type"
+
+#: mediator.php:571
+msgid "cmd"
+msgstr "cmd"
+
+#: mediator.php:571
+msgid "argc"
+msgstr "argc"
+
+#: mediator.php:571
+msgid "ext"
+msgstr "ext"
+
+#: mediator.php:625
+msgid "Leave the fields blank for auto detect."
+msgstr "Оставьте поля пустыми, и коннектор  попытается найти и использовать все доступные архиваторы."
+
