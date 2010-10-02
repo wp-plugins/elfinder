@@ -1,4 +1,4 @@
-=== elFinder WordPress Plugin ===
+=== elFinder ===
 Contributors: studio 42 + jibiel
 Tags: file manager, image preview, upload, usability, drag and drop, finder, mac os
 Tested up to: 3.0.1
